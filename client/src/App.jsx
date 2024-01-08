@@ -1,7 +1,13 @@
+import Homepage from "./components/homepage";
+
 import "./App.css";
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return (
+    <body>
+      <Homepage />
+    </body>
+  );
 }
 
 export default App;
